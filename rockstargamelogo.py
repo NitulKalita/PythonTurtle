@@ -1,0 +1,98 @@
+import turtle as t
+
+t.pensize(5)
+t.penup()
+t.goto(200,255)
+t.pendown()
+t.speed(0)
+
+t.begin_fill()
+t.fillcolor("#ffab00")
+for j in range(4):
+    for i in range(45):
+        t.right(2)
+        t.forward(2)
+    t.forward(400)
+t.end_fill()
+
+t.penup()
+t.goto(-100,-50)
+t.pendown()
+
+t.begin_fill()
+t.fillcolor("black")
+t.left(80)
+t.forward(200)
+t.right(80)
+t.forward(100)
+for i in range(180):
+    t.right(1)
+    t.forward(1)
+t.right(180)
+for i in range(40):
+    t.right(2)
+    t.forward(1)
+t.forward(80)
+t.right(100)
+t.forward(50)
+t.right(90)
+t.forward(50)
+for i in range(45):
+    t.forward(1)
+    t.left(2)
+t.forward(40)
+t.left(80)
+t.forward(70)
+t.right(80)
+t.forward(50)
+t.end_fill()
+
+
+t.penup()
+t.goto(-34,67)
+t.pendown()
+t.pencolor("#ffab00")
+
+
+t.begin_fill()
+t.fillcolor("#ffab00")
+t.right(100)
+t.forward(50)
+t.right(80)
+t.forward(50)
+for i in range(70):
+    t.right(2)
+    t.forward(1)
+t.end_fill()
+
+t.penup()
+t.goto(76,-74)
+t.pendown()
+t.pencolor("black")
+
+t.begin_fill()
+t.fillcolor("white")
+t.right(150)
+t.forward(80)
+t.right(150)
+t.forward(80)
+t.left(80)
+t.forward(74)
+t.right(150)
+t.forward(80)
+t.left(90)
+t.forward(80)
+t.right(150)
+t.forward(80)
+t.left(90)
+t.forward(80)
+t.right(154)
+t.forward(80)
+t.left(40)
+t.forward(80)
+t.end_fill()
+t.right(130)
+t.forward(64)
+t.hideturtle()
+
+t.done()
