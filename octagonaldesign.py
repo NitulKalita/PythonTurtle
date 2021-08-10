@@ -1,13 +1,12 @@
-from turtle import *
-import turtle
-speed(10)
-bgcolor("black")
-color("yellow")
-pensize(5)
+import turtle as t
+t.speed(10)
+t.bgcolor("black")
+t.color("yellow")
+t.pensize(5)
 for i in range(8):
-    left(45)
+    t.left(45)
     for i in range(8):
-        forward(100)
-        right(45)
+        t.forward(100)
+        t.right(45)
 
-turtle.done()
+t.done()

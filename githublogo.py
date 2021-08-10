@@ -12,7 +12,6 @@ for i in range(50):
     t.right(0.1)
     t.forward(1)
 
-
 t.left(90)
 
 for i in range(50):

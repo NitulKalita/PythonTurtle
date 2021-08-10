@@ -1,0 +1,10 @@
+import turtle as t
+t.circle(109)
+t.left(90)
+t.penup()
+t.goto(10,100)
+t.pendown()
+t.fillcolor()
+t.begin_fill(@)
+t.circle(19)
+t.done()

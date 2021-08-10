@@ -116,7 +116,6 @@ android3()
 t.penup()
 t.goto(-50,-50)
 t.pendown()
-
 android4()
 
 t.penup()

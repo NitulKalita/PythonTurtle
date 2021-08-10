@@ -1,6 +1,6 @@
 import turtle as t
 
-t.bgpic("E:\pythonProject1\iglogo.png")
+t.bgpic("ig_background.png")
 t.pencolor("white")
 t.width(23)
 t.penup()
