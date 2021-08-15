@@ -1,18 +1,18 @@
-import turtle
-turtle.bgcolor('black')
-turtle.speed(60)
-turtle.pensize(1)
+import turtle as t
+t.bgcolor('black')
+t.speed(60)
+t.pensize(1)
 colors = ('magenta')
 for i in range (200):
-    turtle.forward(i*4)
-    turtle.right(91)
-    turtle.color(colors)
+    t.forward(i*4)
+    t.right(91)
+    t.color(colors)
     for x in range (3):
-        turtle.forward(x*4)
-        turtle.right(91)
+        t.forward(x*4)
+        t.right(91)
         for a in range (2):
-            turtle.forward(a*4)
-            turtle.right(91)
+            t.forward(a*4)
+            t.right(91)
             for m in range (739):
-                turtle.forward(m*4)
-                turtle.right(891)
+                t.forward(m*4)
+                t.right(891)
